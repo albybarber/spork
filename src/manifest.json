@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Install Plugins",
+      "identifier": "install-identifier",
+      "script": "./install.js"
+    }
+  ],
+  "menu": {
+    "title": "🍴 Spork 🍴",
+    "items": [
+      "install-identifier"
+    ]
+  }
+} 

@@ -1,0 +1,24 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Install Plugins",
+      "identifier": "install-identifier",
+      "script": "install.js"
+    }
+  ],
+  "menu": {
+    "title": "🍴 Spork 🍴",
+    "items": [
+      "install-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "fannypack",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Alby Barber",
+  "authorEmail": "alby@eventbrite.com"
+}
